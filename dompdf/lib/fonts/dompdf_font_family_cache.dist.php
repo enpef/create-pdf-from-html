@@ -91,5 +91,12 @@ return array(
             'bold_italic' => $distFontDir . 'DejaVuSerif-BoldItalic',
             'italic' => $distFontDir . 'DejaVuSerif-Italic',
             'normal' => $distFontDir . 'DejaVuSerif'
+        ),
+    'proxima nova' => 
+        array (
+            'bold' => $distFontDir . 'ProximaNova-Bold',
+            'bold_italic' => $distFontDir . 'ProximaNova-Bolditalic',
+            'italic' => $distFontDir . 'ProximaNova-Italic',
+            'normal' => $distFontDir . 'ProximaNova'
         )
 );
