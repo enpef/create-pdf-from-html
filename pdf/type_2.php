@@ -3,6 +3,8 @@
 
 	use Dompdf\Dompdf;
 
+	set_time_limit(-1);
+
 	// instantiate and use the dompdf class
 	$dompdf = new Dompdf();
 	$fileContent = file_get_contents( "http://localhost/pdf_dot/template_2.html" ) ;
